@@ -14,6 +14,7 @@ def button_click(char):
             display.insert(0, "Error")
     else:
         display.insert(tk.END, char)
+        
 root=tk.Tk()
 root.title("Calculator")         
 root.resizable(False, False)
